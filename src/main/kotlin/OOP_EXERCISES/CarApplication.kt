@@ -5,7 +5,7 @@ fun main() {
     val car2 = Car(model = "Toyota", year = 2020, price = -1500.00)
 
     car1.setPrice(2.00)
-    car2.setPrice(50.000)
+    car2.setPrice(50.0)
     println(car1.getPrice())
     println(car2.getPrice())
     var discount1 = car1.getPrice() - (car1.getPrice() * 0.05)
