@@ -4,7 +4,7 @@ fun main() {
     val car1 = Car(model = "Benz", year = 2023, price = -1.00)
     val car2 = Car(model = "Toyota", year = 2020, price = -1500.00)
 
-    car1.setPrice(20.00)
+    car1.setPrice(20.000)
     car2.setPrice(50.0)
     println(car1.getPrice())
     println(car2.getPrice())
