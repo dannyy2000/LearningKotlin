@@ -8,9 +8,6 @@ class Car (
     private var price: Double = if (price > 0) price else 0.0
 
 
-
-
-
     fun setModel(value: String) {
         model = value
     }
