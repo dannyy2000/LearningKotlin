@@ -11,7 +11,7 @@ fun main() {
     var discount1 = car1.getPrice() - (car1.getPrice() * 0.09)
     car1.setPrice(discount1)
 
-    var discount2 = car2.getPrice() - (car2.getPrice() * 0.07)
+    var discount2 = car2.getPrice() - (car2.getPrice() * 0.06)
     car2.setPrice(discount2)
 
     println(car1.getPrice())
