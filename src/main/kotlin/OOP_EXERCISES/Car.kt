@@ -3,14 +3,11 @@ package OOP_EXERCISES
 class Car (
    private var model:String,
     private var year:Int,
-   private var price:Double
+   price:Double
 ) {
+    private var price: Double = if (price > 0) price else 0.0
 
-    init {
-        if (price >= 0.0){
-            this.price = price
-        }
-    }
+
 
 
 
@@ -36,18 +33,10 @@ class Car (
         else{
             price != value
         }
+
     }
 
     fun getPrice(): Double {
-        return price
-    }
-
-    fun setDiscount1(): Double {
-        return price - (price * 0.05)
-    }
-
-    fun setDiscount2(): Double {
-        price *= 0.07
         return price
     }
 
